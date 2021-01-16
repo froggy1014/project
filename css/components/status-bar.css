@@ -1,9 +1,16 @@
 .status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+.status-bar__column {
   display: flex;
   justify-content: space-between;
   padding: 5px 5px;
 }
-.status-bar__column:first-child span {
+
+.status-bar__block:first-child span {
   margin-right: 5px;
   font-size: 15px;
 }

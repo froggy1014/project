@@ -1,0 +1,44 @@
+.nav {
+  margin-left: 70px;
+  position: fixed;
+  bottom: 0;
+  width: 350px;
+  background-color: #f9f9fa;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  opacity: 0.9;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  color: #2e363e;
+}
+
+.nav__notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  left: 13px;
+  bottom: 18px;
+}
+.nav__btn {
+  position: relative;
+  transition: transform 1s ease-in-out;
+}
+.nav__btn_1:hover,
+.nav__btn_2:hover,
+.nav__btn_3:hover,
+.nav__btn_4:hover {
+  transform: scale(1.3);
+}

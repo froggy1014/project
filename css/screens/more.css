@@ -1,0 +1,14 @@
+.fa-exclamation-triangle {
+  color: red;
+}
+.fa-inbox {
+  margin: 0 auto;
+  text-align: right;
+
+  margin-left: 150px;
+}
+.suggestion-box {
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  font-size: 20px;
+}

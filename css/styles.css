@@ -1,6 +1,6 @@
 @import "reset.css";
 @import "variables.css";
-
+@import "background.css";
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";

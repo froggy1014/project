@@ -8,6 +8,7 @@
 @import "components/user-component.css";
 @import "components/icon-row.css";
 @import "components/second-screen-header.css";
+@import "components/no-mobile.css";
 /* Screens */
 @import "screens/friends.css";
 @import "screens/login.css";

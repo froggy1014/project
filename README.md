@@ -1,2 +1,0 @@
-# challenge_froggy
-Hi-

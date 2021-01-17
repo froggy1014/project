@@ -22,3 +22,59 @@
   width: 30px;
   height: 30px;
 }
+@keyframes rotatecog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes house-icon {
+  0% {
+    transform: none;
+  }
+  30% {
+    transform: translateY(10px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: none;
+  }
+}
+@keyframes search-icon {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateZ(45deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+@keyframes add-icon {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: none;
+  }
+}
+.cog-icon:hover {
+  animation: rotatecog 3s ease-in-out infinite;
+}
+.house-icon:hover {
+  animation: house-icon 2s ease-in-out infinite;
+}
+.search-icon:hover {
+  animation: search-icon 2s ease-in-out infinite;
+}
+.add-icon:hover {
+  animation: add-icon 2s ease-in-out infinite;
+}

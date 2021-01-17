@@ -1,0 +1,9 @@
+.second-header-screen {
+  margin: 40px 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second-header-screen__title {
+  font-size: 25px;
+}

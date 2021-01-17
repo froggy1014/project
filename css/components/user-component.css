@@ -1,7 +1,8 @@
 .user-component-box {
-  height: 95%;
+  height: 100%;
   width: 90%;
-  margin: 15px auto;
+  margin-top: 15px;
+  margin-left: 15px;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 20px;
 }
@@ -90,6 +91,7 @@
   padding: 8px 0px;
   color: gray;
   opacity: 0.8;
+  width: 180px;
 }
 .chat-component__state {
   display: flex;
@@ -119,6 +121,5 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-
   font-family: sans-serif;
 }

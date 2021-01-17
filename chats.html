@@ -29,24 +29,29 @@
     <header class="screen-header">
       <h1 class="screen-header__title">Chat</h1>
       <div class="screen-header__icons">
-        <img src="img/loupe.png" />
-        <img src="img/add.png" />
-        <img src="img/house.png" />
-        <img src="img/settings.png" />
+        <img src="img/loupe.png" class="search-icon" />
+        <img src="img/add.png" class="add-icon" />
+        <img src="img/house.png" class="house-icon" />
+        <img src="img/settings.png" class="cog-icon" />
       </div>
     </header>
 
     <div class="chat-component">
-      <div class="user-component__column">
-        <img src="img/wife.JPG" class="user-component__avatar" />
-        <div class="chat-component__text">
-          <span class="user-component__title">
-            Claire Dunphy&nbsp&nbsp&nbsp
-            <i class="fas fa-thumbtack"></i>
-          </span>
-          <h6 class="chat-component__sub">hang on, I'm working</h6>
+      <a href="chat.html">
+        <div class="user-component__column">
+          <img src="img/wife.JPG" class="user-component__avatar" />
+          <div class="chat-component__text">
+            <span class="user-component__title">
+              Claire Dunphy&nbsp&nbsp&nbsp
+              <i class="fas fa-thumbtack"></i>
+            </span>
+            <h6 class="chat-component__sub">hang on, I'm working</h6>
+          </div>
+          <div class="chat-component__state">
+            <span class="chat-component__time"> 13:20 pm</span>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
     <div class="chat-component">
       <div class="user-component__column">
@@ -55,9 +60,7 @@
           <span class="user-component__title">
             Luke Dunphy&nbsp&nbsp&nbsp
           </span>
-          <h6 class="chat-component__sub">
-            Dad, Can you pick me up after school?
-          </h6>
+          <h6 class="chat-component__sub">Dad, Can you pick me up?</h6>
         </div>
         <div class="chat-component__state">
           <span class="chat-component__time">14:45 pm </span>
@@ -74,6 +77,9 @@
           </span>
           <h6 class="chat-component__sub">I'mma sleep over friend's dad~</h6>
         </div>
+        <div class="chat-component__state">
+          <span class="chat-component__time"> 11:20 am</span>
+        </div>
       </div>
     </div>
     <div class="chat-component">
@@ -84,6 +90,9 @@
             Mitchell Pritchett&nbsp&nbsp&nbsp
           </span>
           <h6 class="chat-component__sub">wanna go starwars exhibition?</h6>
+        </div>
+        <div class="chat-component__state">
+          <span class="chat-component__time"> 09:20 am</span>
         </div>
       </div>
     </div>

@@ -1,0 +1,23 @@
+.status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+.status-bar__column {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5px;
+}
+
+.status-bar__block:first-child span {
+  margin-right: 5px;
+  font-size: 15px;
+}
+.fa-paper-plane {
+  margin-right: 5px;
+}
+.fa-battery-half,
+.fa-wifi {
+  margin-left: 5px;
+}

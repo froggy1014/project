@@ -1,0 +1,80 @@
+.screen-header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.screen-header__title {
+  color: var(--modern);
+  font-size: 40px;
+}
+.screen-header__icons {
+  padding: 10px 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+}
+.screen-header__icons img {
+  color: var(--modern);
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+@keyframes rotatecog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes house-icon {
+  0% {
+    transform: none;
+  }
+  30% {
+    transform: translateY(10px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: none;
+  }
+}
+@keyframes search-icon {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateZ(45deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+@keyframes add-icon {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: none;
+  }
+}
+.cog-icon:hover {
+  animation: rotatecog 3s ease-in-out infinite;
+}
+.house-icon:hover {
+  animation: house-icon 2s ease-in-out infinite;
+}
+.search-icon:hover {
+  animation: search-icon 2s ease-in-out infinite;
+}
+.add-icon:hover {
+  animation: add-icon 2s ease-in-out infinite;
+}

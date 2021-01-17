@@ -1,0 +1,125 @@
+.user-component-box {
+  height: 100%;
+  width: 90%;
+  margin-top: 15px;
+  margin-left: 15px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+}
+.user-component {
+  width: 90%;
+  margin: 0 auto;
+}
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.user-component__text {
+  width: 100%;
+}
+.user-component__title {
+  font-size: 20px;
+}
+.user-component__sub {
+  font-size: 13px;
+  color: rgb(145, 144, 144);
+  margin-top: 8px;
+}
+
+.user-component__online {
+  margin: 0 auto;
+  text-align: right;
+  color: chartreuse;
+  width: 255px;
+}
+.user-component-smb {
+  border-bottom: 2px solid rgb(170, 170, 170);
+  width: 95%;
+  margin: 0 auto;
+}
+.user-component__avatar-smb {
+  width: 70px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.user-component__avatar-sm {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.user-component__number {
+  width: 100px;
+  text-align: right;
+}
+.user-component-sm {
+  width: 95%;
+  margin: 0 auto;
+}
+.user-component__online-busy {
+  margin: 0 auto;
+  text-align: right;
+  color: yellow;
+  width: 255px;
+}
+.user-component__online-angry {
+  margin: 0 auto;
+  text-align: right;
+  color: red;
+  width: 255px;
+}
+.chat-component {
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.fa-thumbtack {
+  opacity: 0.7;
+}
+.chat-component__sub {
+  padding: 8px 0px;
+  color: gray;
+  opacity: 0.8;
+  width: 180px;
+}
+.chat-component__state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  width: 100px;
+  height: 50px;
+}
+.chat-component__time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  opacity: 0.7;
+}
+.chat-component__noti {
+  margin-top: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-family: sans-serif;
+}

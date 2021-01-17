@@ -1,0 +1,6 @@
+.chat-component {
+  transition: transform 1s ease-in-out;
+}
+.user-component__column:hover {
+  transform: scale(1.3);
+}

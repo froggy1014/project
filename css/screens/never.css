@@ -1,0 +1,44 @@
+body {
+  background-image: none;
+  font-family: fantasy;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.go-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 10%;
+  background-color: rgba(214, 214, 214, 0.4);
+  color: black;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+}
+.never-box {
+  padding: 90px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-size: 30px;
+}
+
+.never-dunphy img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60%;
+  animation-duration: 0.8s;
+  animation-name: slidein;
+}

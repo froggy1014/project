@@ -1,0 +1,255 @@
+body {
+  padding: 20px 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f3f4;
+  font-style: italic;
+}
+.screen_first_page,
+.screen_second_page {
+  background-color: white;
+  width: 300px;
+  height: 610px;
+  border-radius: 25px;
+}
+.screen_first_page {
+  margin-right: 70px;
+}
+.first_line,
+.second_line {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+.first_line_pic {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first_line_pic img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.first_line_album_info {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first_line_album_info_singer {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.first_line_album_info_type {
+  font-size: 15px;
+  font-weight: bolder;
+  opacity: 0.5;
+}
+.first_line_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.first_line_buttons_shuffle {
+  width: 75px;
+  height: 30px;
+  background-color: black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first_line_buttons_shuffle_input {
+  font-size: 16px;
+  color: white;
+}
+.first_line_buttons_heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35px;
+  width: 85px;
+  height: 30px;
+  background-color: white;
+  border-radius: 15px;
+}
+.first_line_buttons_input_number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.first_line_list_box1,
+.first_line_list_box2,
+.first_line_list_box3,
+.first_line_list_box4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 95%;
+  height: 70px;
+  background-color: white;
+  box-shadow: 10px 5px 5px whitesmoke;
+  border-radius: 20px;
+}
+.first_line_list_box2,
+.first_line_list_box3,
+.first_line_list_box4 {
+  margin-top: 10px;
+}
+.first_line_list_box1 img,
+.first_line_list_box2 img,
+.first_line_list_box3 img,
+.first_line_list_box4 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+}
+.first_line_list_box1_text,
+.first_line_list_box2_text,
+.first_line_list_box4_text {
+  margin-left: -10px;
+}
+.first_line_list_box1_singer,
+.first_line_list_box2_singer,
+.first_line_list_box3_singer,
+.first_line_list_box4_singer {
+  font-weight: bolder;
+  opacity: 0.6;
+}
+.first_line_list_box1_song,
+.first_line_list_box2_song,
+.first_line_list_box3_song,
+.first_line_list_box4_song {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.first_line_list_box1_icon,
+.first_line_list_box2_icon,
+.first_line_list_box4_icon {
+  margin-left: 40px;
+}
+.first_line_list_box3_icon {
+  margin-left: -20px;
+}
+.first_line_list_box3_text {
+  margin-left: -10px;
+}
+
+.first_line_play_box {
+  margin-left: 6px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  height: 55px;
+  background-color: black;
+  border-radius: 25px;
+  box-shadow: 10px 5px 5px whitesmoke;
+}
+.first_line_play_box_text {
+  margin-left: 20px;
+  color: white;
+}
+.first_line_play_box_singer {
+  color: rgb(184, 184, 184);
+  font-size: 12;
+}
+.first_line_play_box_song {
+  font-size: 17px;
+  font-weight: bolder;
+}
+.first_line_play_box_button {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rf {
+  margin-right: 30px;
+}
+.fa-stop {
+  margin-right: 30px;
+}
+.rs {
+  margin-right: 10px;
+}
+.second_line_image_box img {
+  margin-left: 30px;
+  margin-top: 40px;
+  padding: 30px 30px;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  box-shadow: 10px 5px 5px rgb(141, 141, 141);
+}
+.second_line_album_info {
+  margin-top: 20px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second_line_album_song {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.second_line_album_singer {
+  font-size: 17px;
+  font-weight: bolder;
+  opacity: 0.4;
+}
+.second_line_timestamp_box {
+  margin-left: 15px;
+  margin-right: 20px;
+  height: 20px;
+  font-size: 15px;
+  opacity: 0.4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second_line_timestamp_range {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 90%;
+  height: 5px;
+  background-color: black;
+  position: relative;
+}
+.second_line_timestamp_range_dot {
+  position: absolute;
+  right: 42px;
+  z-index: 1;
+}
+.second_line_timestamp_range_box {
+  position: absolute;
+  left: 202px;
+  height: 5px;
+  width: 20%;
+  background-color: rgb(212, 212, 212);
+}
+.second_line_icons_box {
+  margin: 45px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-random,
+.fa-redo {
+  opacity: 0.4;
+}
